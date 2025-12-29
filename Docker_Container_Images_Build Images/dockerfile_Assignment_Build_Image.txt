@@ -9,4 +9,4 @@ LABEL maitainer="sanjayamaravadi"
 ADD script.py /
 
 # Execute python script
-CMD [ "python", "./my_script.py" ]
+CMD [ "python", "./script.py" ]
