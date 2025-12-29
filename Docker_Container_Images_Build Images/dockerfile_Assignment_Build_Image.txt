@@ -3,10 +3,10 @@ FROM python:latest
 
 # Identify the maintainer of an image
 LABEL version="0.0.1"
-LABEL maitainer="anshulc55@gmail.com"
+LABEL maitainer="sanjayamaravadi"
 
 # Add Python Script
-ADD my_script.py /
+ADD script.py /
 
 # Execute python script
 CMD [ "python", "./my_script.py" ]
